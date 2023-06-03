@@ -1,0 +1,28 @@
+body {
+  --custom-color: #f95e57;
+}
+
+body {
+  /* 斜/粗体文字颜色 */
+  --italic-color: var(--custom-color);
+  --bold-color: var(--custom-color);
+  /* 正文文字行高 */
+  --line-height-normal: 1.65;
+  /* 左右侧栏文字行高 */
+  --line-height-tight: 1.75;
+  /* 左右侧栏背景色 */
+  --background-secondary: var(--color-base-10);
+}
+
+/* 粗体 */
+.cm-strong:not(.cm-formatting) {
+  margin-left: 0.15rem;
+  margin-right: 0.15rem;
+}
+
+/* 斜体、斜体+粗体 */
+.cm-em:not(.cm-formatting),
+.cm-em.cm-strong {
+  margin-left: 0.05rem;
+  margin-right: 0.25rem;
+}
